@@ -1,0 +1,8 @@
+{
+    "database" : {
+        "path": "database/encs_ppc.db"
+    },
+    "telegram_bot" : {
+        "secret_token_path": "secret_bot_token"
+    }
+}

@@ -1,0 +1,17 @@
+Telegram bot for Julia microchef
+
+Dependencies:
+    requirements.txt
+
+Create virtualenv: 
+    virtual environment virtual/environment/path
+switch from python2.7.x to python 3.x: 
+    virtualenv -p python3 virtual/environment/path
+activate virtual environment:
+    source virtual/environment/path/bin/activate
+install requirements:
+    pip install -r requirements.txt
+after end of work deactivate virtual environment:
+    deactivate
+after install new package fix requrements:
+    pip freeze > requirements.txt
